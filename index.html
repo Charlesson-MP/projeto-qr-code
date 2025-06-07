@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Projeto qrcode</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Work+Sans:ital@0;1&display=swap");
+
+      @media (max-width: 600px) {
+        main {
+          width: 280px;
+        }
+
+        img {
+          width: 100%; /* Torna a imagem responsiva dentro do contêiner */
+          max-width: 250px; /* Mantém a largura ajustada */
+        }
+      }
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Work Sans", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      main {
+        background-color: hsl(0, 0%, 100%);
+        max-width: 400px;
+        padding: 30px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        max-width: 400px;
+      }
+
+      h1 {
+        font-size: 23px;
+        text-align: center;
+        color: hsl(218, 44%, 22%);
+      }
+
+      p {
+        color: hsl(0, 0%, 55%);
+        font-weight: 600;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="img">
+        <img src="images/image-qr-code.png" alt="" />
+      </div>
+      <div class="description">
+        <h1>Improve your frontend skills by building projects</h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
