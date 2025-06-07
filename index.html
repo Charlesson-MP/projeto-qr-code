@@ -12,6 +12,12 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Work+Sans:ital@0;1&display=swap");
 
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
       @media (max-width: 600px) {
         main {
           width: 280px;
@@ -20,6 +26,7 @@
         img {
           width: 100%; /* Torna a imagem responsiva dentro do contêiner */
           max-width: 250px; /* Mantém a largura ajustada */
+          border-radius: 30px;
         }
       }
 
@@ -35,7 +42,7 @@
       main {
         background-color: hsl(0, 0%, 100%);
         max-width: 400px;
-        padding: 30px;
+        padding: 20px;
         border-radius: 30px;
         display: flex;
         flex-direction: column;
@@ -43,14 +50,20 @@
         align-items: center;
       }
 
+      div.img {
+        margin-bottom: 30px;
+      }
+
       img {
-        max-width: 400px;
+        max-width: 350px;
+        border-radius: 30px;
       }
 
       h1 {
         font-size: 23px;
         text-align: center;
         color: hsl(218, 44%, 22%);
+        margin-bottom: 20px;
       }
 
       p {
