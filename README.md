@@ -15,15 +15,15 @@ O projeto consiste em uma página simples com um QR Code centralizado, acompanha
 
 ## 📌 Estrutura do Projeto
 
-- 📂 projeto-qrcode/
-- │
-- ├── 📁 images/          # Diretório contendo imagens do projeto
-- │   ├── image-qr-code.png   # Imagem do QR Code
-- │   ├── favicon-32x32.png   # Ícone da página
-- │
-- ├── index.html         # Página principal do projeto
-- ├── README.md          # Documento explicativo do projeto
-- └── .gitignore         # Arquivo opcional para evitar commits desnecessários
+📂 projeto-qrcode/ <br>
+│ <br>
+├── 📁 images/          # Diretório contendo imagens do projeto <br>
+│   ├── image-qr-code.png   # Imagem do QR Code <br>
+│   ├── favicon-32x32.png   # Ícone da página <br>
+│ <br>
+├── index.html         # Página principal do projeto <br>
+├── README.md          # Documento explicativo do projeto <br>
+└── .gitignore         # Arquivo opcional para evitar commits desnecessários
 
 ## 📱 Responsividade
 
