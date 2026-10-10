@@ -1,36 +1,52 @@
-# Projeto QR Code
+# QR Code Component
 
-Este é um pequeno projeto de frontend que exibe um QR Code, incentivando os usuários a escaneá-lo para melhorar suas habilidades de codificação por meio do Frontend Mentor.
+A responsive QR code component built with HTML5 and CSS3 as part of the [Frontend Mentor](https://www.frontendmentor.io/) challenges.
 
-## 🔥 Tecnologias utilizadas
+## 🚀 Live Demo
+
+[View Live Site](https://charlesson-mp.github.io/projeto-qr-code/)
+
+## 🛠️ Built With
 
 - HTML5
 - CSS3
 - Google Fonts
-- Responsividade com Media Queries
 
-## ✨ Layout
+## ⚙️ Features
 
-O projeto consiste em uma página simples com um QR Code centralizado, acompanhado de uma mensagem explicativa. O design é baseado em um fundo suave e um contêiner branco com bordas arredondadas para um visual mais limpo.
+- Responsive layout
+- Centered card using CSS Flexbox
+- Custom typography and colors
+- Simple, lightweight implementation without JavaScript
 
-## 📌 Estrutura do Projeto
+## 🏯 Project Structure
 
-📂 projeto-qrcode/ <br>
-│ <br>
-├── 📁 images/          # Diretório contendo imagens do projeto <br>
-│   ├── image-qr-code.png   # Imagem do QR Code <br>
-│   ├── favicon-32x32.png   # Ícone da página <br>
-│ <br>
-├── index.html         # Página principal do projeto <br>
-├── README.md          # Documento explicativo do projeto <br>
-└── .gitignore         # Arquivo opcional para evitar commits desnecessários
+```
+projeto-qr-code/
+├── images/
+│   ├── favicon-32x32.png
+│   └── image-qr-code.png
+├── index.html
+└── README.md
+```
 
-## 📱 Responsividade
+## 📦 Getting Started
 
-Este projeto é responsivo para telas menores (máximo de 600px), garantindo que a imagem do QR Code e o conteúdo sejam ajustados para melhor visualização.
+To run the project locally:
 
-## 🚀 Como executar o projeto?
+1. Clone the repository:
+   
+   git clone https://github.com/Charlesson-MP/projeto-qr-code.git
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-qrcode.git
+2. Navigate to the project directory:
+   
+   cd projeto-qr-code
+
+3. Open "index.html" in your browser.
+
+No additional dependencies or build tools are required.
+
+## 🙏🏼 Acknowledgments
+
+- "Frontend Mentor" (https://www.frontendmentor.io/) for providing the challenge.
+- "Google Fonts" (https://fonts.google.com/) for the typography.
