@@ -19,7 +19,7 @@ A responsive QR code component built with HTML5 and CSS3 as part of the [Fronten
 - Custom typography and colors
 - Simple, lightweight implementation without JavaScript
 
-## 🏯 Project Structure
+## 📁 Project Structure
 
 ```
 projeto-qr-code/
